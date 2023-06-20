@@ -2858,6 +2858,77 @@ background-blend-mode: multiply;
 
 
 
+
+
+
+
+
+.slidercontainer{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+
+.slide-track{
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover{
+  animation-play-state: paused;
+}
+.imgcol{
+  width: 10%;
+  transition: transform 1s;
+}
+.imgcol:hover{
+  transform: translateZ(20px);
+}
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 9));
+  }
+}
+
+.imgslide{
+
+  display: flex;
+  align-items: center;
+  perspective: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .service-slider .owl-nav .owl-prev:hover {
   color: #414141 !important;
   background-color: #fff !important;
