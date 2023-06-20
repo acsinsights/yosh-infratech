@@ -6,6 +6,28 @@ body {
   color: #9a9a9a;
   overflow-x: hidden;
 }
+
+
+
+
+
+.gallery-area {
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
 p {
   color: #9a9a9a;
 }
@@ -1318,17 +1340,20 @@ color: black;
   background-image: url(../img/home-one/01.jpg);
   background-color: grey;
 background-blend-mode: multiply;
+
 }
 
 .item-bg2 {
   background-image: url(../img/home-one/02.jpg);
   background-color: grey;
 background-blend-mode: multiply;
+
 }
 .item-bg3 {
   background-image: url(../img/home-one/03.jpg);
   background-color: grey;
 background-blend-mode: multiply;
+
 }
 
 
@@ -2810,7 +2835,7 @@ background-blend-mode: multiply;
 }
 .owl-carousel .owl-item img {
   display: block;
-  width: 84%;
+  width: 100%;
   transform: translateX(15px);
 }
 .service-slider .owl-nav .owl-prev {
@@ -2830,6 +2855,9 @@ background-blend-mode: multiply;
 .service-slider .owl-nav .owl-prev i {
   margin-right: 40px;
 }
+
+
+
 .service-slider .owl-nav .owl-prev:hover {
   color: #414141 !important;
   background-color: #fff !important;
