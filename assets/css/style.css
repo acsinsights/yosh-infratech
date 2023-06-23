@@ -155,7 +155,7 @@ color: black;
   color: #9a9a9a;
 }
 .section-title h2 {
-  font-size: 60px;
+  font-size: 51px;
   font-weight: 600;
   margin-top: 5px;
   line-height: 1.2;
@@ -1582,6 +1582,15 @@ background-blend-mode: multiply;
   z-index: 1;
   font-size: 16px;
 }
+.banner-content .banner-btn .get-btn:hover {
+  margin-left: 20px;
+  padding: 7px 27px 12px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+}
 .banner-content .banner-btn .get-btn i {
   font-size: 30px;
   line-height: 1;
@@ -1604,15 +1613,8 @@ background-blend-mode: multiply;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
-.banner-content .banner-btn .get-btn:hover {
-  background-color: #fff;
-  color: #000;
-}
-.banner-content .banner-btn .get-btn:hover::before {
-  height: 100%;
-  opacity: 1;
-  border-radius: 5px;
-}
+
+
 
 .banner-area-two {
   position: relative;
@@ -2623,6 +2625,7 @@ background-blend-mode: multiply;
   display: inline-block;
   width: 115px;
   height: 120px;
+  border-radius: 100px;
   line-height: 120px;
   background-color: transparent;
   color: #fff;
@@ -2856,18 +2859,15 @@ background-blend-mode: multiply;
   margin-right: 40px;
 }
 
-
-
-
-
-
-
-
-.slidercontainer{
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
+.work-img
+{
+border-radius: 50%;
+    margin-bottom: 32px;
 }
+
+
+
+
 
 
 
@@ -2898,16 +2898,10 @@ background-blend-mode: multiply;
 }
 
 .imgslide{
-
   display: flex;
   align-items: center;
-  perspective: 100px;
+
 }
-
-
-
-
-
 
 
 
@@ -7025,3 +7019,33 @@ background-blend-mode: multiply;
   background-color: orange;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
