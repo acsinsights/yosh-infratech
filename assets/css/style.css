@@ -3526,13 +3526,13 @@ border-radius: 50%;
   background-color: #414141;
 }
 .team-card .images {
-  border: 1px solid #9a9a9a;
+  /* border: 1px solid #9a9a9a; */
   margin-right: 10px;
   margin-bottom: 10px;
   position: relative;
 }
 .team-card .images::before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   top: 10px;
   right: -11px;
