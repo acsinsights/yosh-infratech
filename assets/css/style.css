@@ -1337,14 +1337,14 @@ color: black;
   color: #fff;
 }
 .item-bg1 {
-  background-image: url(../img/home-one/01.jpg);
+  background-image: url(../img/home-one/infrastructure\ bridge.jpg);
   background-color: grey;
 background-blend-mode: multiply;
 
 }
 
 .item-bg2 {
-  background-image: url(../img/home-one/02.jpg);
+  background-image: url(../img/home-one/infrastructure\ bridge.jpg);
   background-color: grey;
 background-blend-mode: multiply;
 
@@ -2230,7 +2230,7 @@ background-blend-mode: multiply;
 }
 .consultation-content .section-title h2 {
   color: #fff;
-  max-width: 695px;
+  /* max-width: 695px; */
 }
 .consultation-content .section-title p {
   color: #fff;
@@ -3547,7 +3547,7 @@ border-radius: 50%;
   position: absolute;
   bottom: -11px;
   right: -10px;
-  height: 10px;
+  height: 5px;
   width: 100%;
   background-color: #f3f3f3;
   -webkit-transition: 0.7s;
