@@ -2047,6 +2047,19 @@
   .contactline {
     display: none;
   }
+  .consultation-area {
+    background-image: url(../img/home-one/infrastructure\ bridge.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: grey;
+    background-blend-mode: multiply;
+    /* height: 1091px; */
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   .desktop-services {
@@ -2070,4 +2083,18 @@
 .imgcol{
   width: 8%;
 }
+.consultation-area {
+  background-image: url(../img/home-one/infrastructure\ bridge.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: grey;
+  background-blend-mode: multiply;
+  /* height: 1091px; */
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
 }

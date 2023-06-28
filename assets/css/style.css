@@ -148,7 +148,7 @@ color: black;
   border-radius: 5px;
 }
 .section-title span {
-  line-height: 0;
+  /* line-height: 0; */
   text-transform: capitalize;
   padding-bottom: 5px;
   font-weight: 400;
@@ -1219,9 +1219,9 @@ color: black;
   opacity: 0;
 }
 .slider-content {
-  padding-top: 380px;
-  padding-bottom: 250px;
-  margin-left: 85px;
+  padding-top: 128px;
+  /* padding-bottom: 250px; */
+  /* margin-left: 85px; */
   max-width: 730px;
   position: relative;
   z-index: 1;
@@ -1272,7 +1272,7 @@ color: black;
   content: "";
   position: absolute;
   z-index: -1;
-  top: 300px;
+  top: 66px;
   left: -85px;
   width: 630px;
   height: 570px;
@@ -2200,11 +2200,16 @@ background-blend-mode: multiply;
   right: 30px;
 }
 .consultation-area {
-  background-image: url(../img/consultation-img-.jpg);
+  background-image: url(../img/home-one/infrastructure\ bridge.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  /* background-color: grey; */
+  background-blend-mode: multiply;
+  /* height: 1091px; */
+  height: 100%;
+  width: 100%;
   z-index: 1;
 }
 .consultation-area::before {
