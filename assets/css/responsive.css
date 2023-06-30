@@ -1740,10 +1740,10 @@
   .section-title h2 {
     font-size: 50px;
   }
-  .width1{
+  .width1 {
     flex: 0 0 auto;
-      width: 33.333333%;
-    }
+    width: 33.333333%;
+  }
   .d-in-line {
     display: none;
   }
@@ -2048,7 +2048,7 @@
     display: none;
   }
   .consultation-area {
-    background-image: url(../img/home-one/infrastructure\ bridge.jpg);
+    background-image: url(../img/home-one/yosh-infra-hero.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2068,33 +2068,38 @@
   .contactline {
     display: none;
   }
-  .service-card  {
+  .service-card {
     display: block;
     text-align: center;
-}
-.service-card .content {
-  padding-top: 15px;
-  text-align: center;
-}
-.portfolio-tab {
-  margin-top: 30px;
-  margin-left: 12px;
-}
-.imgcol{
-  width: 8%;
-}
-.consultation-area {
-  background-image: url(../img/home-one/infrastructure\ bridge.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  background-color: grey;
-  background-blend-mode: multiply;
-  /* height: 1091px; */
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-}
-
+  }
+  .service-card .content {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .portfolio-tab {
+    margin-top: 30px;
+    margin-left: 12px;
+  }
+  .imgcol {
+    width: 8%;
+  }
+  .consultation-area {
+    background-image: url(../img/home-one/infrastructure\ bridge.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: grey;
+    background-blend-mode: multiply;
+    /* height: 1091px; */
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  .about-counter-4 {
+    width: 45%;
+  }
+  html{
+    overflow-x: hidden;
+  }
 }
