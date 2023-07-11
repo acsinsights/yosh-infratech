@@ -316,10 +316,13 @@ Goregaon East. Mumbai 400063
 </li>
 <li>
 <span class="fw-bold fs-5">Phone:</span> <a href="tel:+91 7066048242">+91 7066048242</a>  /
- <a href="tel:+91 8956514781">+91 8956514781</a>
+ <a href="tel:+91 8956514781">+91 8956514781/</a>
+    <a href="tel:025252299071">025252299071</a>
+
+
 </li>
 <li>
-<span class="fw-bold fs-5">Open:</span> Mon - Sat / 9:00 AM - 6:30 PM
+<span class="fw-bold fs-5">Open:</span> Mon - Sat  (9:00 AM - 6:30 PM)
 </li>
 </ul>
 <ul class="social-link">
@@ -349,40 +352,41 @@ Goregaon East. Mumbai 400063
 <div class="contact-two-form pt-100 pb-70">
 <div class="contact-wrap-form">
 <h2>Contact Us</h2>
-<form id="contactForm">
+<form form action="message.php" method="post" onsubmit="target_popup(this)">
 <div class="row">
 <div class="col-lg-6 col-sm-6">
 <div class="form-group">
 <i class='bx bx-user'></i>
-<input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name*">
+<input type="text" name="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name*">
 <div class="help-block with-errors"></div>
 </div>
 </div>
 <div class="col-lg-6 col-sm-6">
+    <div class="form-group">
+    <i class='bx bx-phone'></i>
+    <input type="text" name="phone" required data-error="Please enter your number" class="form-control" placeholder="Your Phone">
+    <div class="help-block with-errors"></div>
+    </div>
+    </div>
+<div class="col-lg-12 col-sm-12">
 <div class="form-group">
 <i class='bx bx-envelope'></i>
-<input type="email" name="email_address" id="email_address" required data-error="Please enter email address" class="form-control" placeholder="Email Address*">
+<input type="email" name="email" required data-error="Please enter email address" class="form-control" placeholder="Email Address*">
 <div class="help-block with-errors"></div>
 </div>
 </div>
-<div class="col-lg-6 col-sm-6">
-<div class="form-group">
-<i class='bx bx-phone'></i>
-<input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Your Phone">
-<div class="help-block with-errors"></div>
-</div>
-</div>
-<div class="col-lg-6 col-sm-6">
+
+<!-- <div class="col-lg-6 col-sm-6">
 <div class="form-group">
 <i class='bx bx-git-compare'></i>
 <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject">
 <div class="help-block with-errors"></div>
 </div>
-</div>
+</div> -->
 <div class="col-lg-12 col-md-12">
 <div class="form-group">
 <i class='bx bx-envelope'></i>
-<textarea name="message" class="form-control" id="message" cols="30" rows="8" required data-error="Write your message" placeholder="Your Message"></textarea>
+<textarea name="address" class="form-control" cols="30" rows="8" required data-error="Write your message" placeholder="Your Message"></textarea>
 <div class="help-block with-errors"></div>
 </div>
 </div>
@@ -390,8 +394,8 @@ Goregaon East. Mumbai 400063
 <button type="submit" class="default-btn">
 Send Your Message
  </button>
-<div id="msgSubmit" class="h3 text-center hidden"></div>
-<div class="clearfix"></div>
+<!-- <div id="msgSubmit" class="h3 text-center hidden"></div>
+<div class="clearfix"></div> -->
 </div>
 </div>
 </form>
@@ -428,13 +432,14 @@ Send Your Message
         Goregaon East. Mumbai 400063
         </li>
         <li>
-            <a href="mailto:hello@yoshinfratech.com">hello@yoshinfratech.com</a>        </li>
+            <a href="mailto:hello@yoshinfratech.com">hello@yoshinfratech.com</a></li>
+            <li>
+                <span>Phone:</span> <a href="tel:+918956514781 ">+91 8956514781 /</a>
+                <a href="tel:+917066048242 ">+91 7066048242 /</a>
+                <a href="tel:025252299071">025252299071</a>
+                 </li>  
         <li>
-           <span>Phone:</span> <a href="tel:+91 7066048242">+91 7066048242</a>
-  <a href="tel:+91 8956514781">+91 8956514781</a>
-         </li>
-        <li>
-        <span>Open:</span> Mon - Sat / 9:00 AM - 6:30 PM
+        <span>Open:</span> Mon - Sat (9:00 AM - 6:30 PM)
         </li>
         </ul>
     </div>

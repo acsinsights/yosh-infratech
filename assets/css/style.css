@@ -2225,6 +2225,12 @@ background-blend-mode: multiply;
   background-color: #000;
   opacity: 0.5;
 }
+/* .team-card .content h3 a {
+  text-align: left !important;
+  padding-top: 20px;
+} */
+
+
 .consultation-content {
   margin-bottom: 30px;
 }
